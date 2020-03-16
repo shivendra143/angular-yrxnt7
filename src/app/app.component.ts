@@ -9,7 +9,7 @@ export class AppComponent implements OnInit {
   name = 'Angular';
   
  ngOnInit(){
-   this.updateArra(this.acctData, this.balance, this.sortby, this.filter); 
+   this.updateArray(this.acctData, this.balance, this.sortby, this.filter); 
  }
 acctData:any = [
 {
@@ -39,7 +39,7 @@ balance:any = {
  filter:string = 'Alice';
  account:any =[];
  users:any;
-updateArra(acctData, balance,opt,filter){
+updateArray(acctData, balance,opt,filter){
 
       this.account =[];
      for(let i=0; i<acctData.length; i++){
