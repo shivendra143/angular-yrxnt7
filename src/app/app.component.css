@@ -1,3 +1,52 @@
-p {
-  font-family: Lato;
+.container1{
+  width:99%;
+  border: 4px solid blue;
+  height:400px
+  
 }
+
+.leftdatahead{
+  width: 48%;
+  text-align:left;
+  float:left;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+.rightdatahead{
+   width: 48%;
+   text-align:right;
+   padding-top: 10px;
+   float:left;
+}
+.rowhead{
+  border-bottom: 2px solid #ccc;
+   height:50px;
+   background:#ccc;
+ 
+}
+.row{
+  border-bottom: 2px solid #ccc;
+   height:50px;
+}
+
+.leftdata{
+  width: 48%;
+  padding-left: 10px;
+  text-align:left;
+  padding-top: 15px;
+  float:left;
+}
+.rightdata{
+   width: 48%;
+   text-align:right;
+   padding-top: 15px;
+   float:left;
+}
+.footersection{
+   width: 99%;
+   text-align:center;
+   padding-top: 15px;
+   float:left;
+}
+
+
