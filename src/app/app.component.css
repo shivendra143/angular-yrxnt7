@@ -45,7 +45,7 @@
 .rightdata{
    width: 48%;
    text-align:right;
-   padding-top: 15px;
+   padding-top: 10px;
    float:left;
 }
 .footersection{
@@ -53,8 +53,22 @@
    text-align:center;
    color:#5aa8cd;
    font-weight: bold;
-   padding-top: 15px;
+   padding-top: 10px;
    float:left;
+}
+.data{
+ font-weight: normal;
+}
+.head{
+  font-size: 18px;
+}
+.dataerror{
+  color:red;
+  font-size: 12px;
+}
+.datasuccess{
+  color:green;
+  font-size: 12px;
 }
 
 
