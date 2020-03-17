@@ -1,8 +1,8 @@
 .container1{
   width:99%;
+  height:100%;
   border: 4px solid #5aa8cd;
-  height:400px
-  
+  min-height:300px
 }
 
 .leftdatahead{
